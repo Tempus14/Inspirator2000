@@ -2,6 +2,7 @@
 
 This project is a simple application that randomly selects saved Instagram posts and displays the corresponding images. Images have to be categorised beforehand by rating.
 For downloading Instagram posts see: https://github.com/instaloader/instaloader
+For rating the images I recommend the free version of Narrative Select: https://narrative.so/
 
 ## Project Structure
 
@@ -32,24 +33,19 @@ Inspirator2000
    cd Inspirator2000
    ```
 
-2. Create a virtual environment:
+2. Create a virtual environment (using conda -> install beforhand):
    ```
-   python -m venv venv
+   conda create -n insta
    ```
 
 3. Activate the virtual environment:
-   - On Windows:
-     ```
-     venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```
-     source venv/bin/activate
-     ```
+   ```
+   conda activate insta
+   ```
 
 4. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   conda install --file requirements.txt
    ```
 
 5. Set up your environment variables in the `.env` file.
@@ -61,7 +57,7 @@ To run the application, execute the following command:
 python src/main.py
 ```
 
-This will initialize the application and display random Instagram posts in the user interface.
+This will initialize the application and let you display random saved Instagram posts in the user interface.
 
 ## Contributing
 
