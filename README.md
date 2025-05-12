@@ -1,8 +1,10 @@
 # Inspirator2000
 
 This project is a simple application that randomly selects saved Instagram posts and displays the corresponding images. Images have to be categorised beforehand by rating.
-For downloading Instagram posts see: https://github.com/instaloader/instaloader
-For rating the images I recommend the free version of Narrative Select: https://narrative.so/
+<br/>
+For downloading Instagram posts see: https://github.com/instaloader/instaloader <br/>
+For rating the images I recommend the free version of Narrative Select: https://narrative.so/ <br/>
+For python package management I recommend conda: https://www.anaconda.com/docs/getting-started/miniconda/install
 
 ## Project Structure
 
@@ -33,7 +35,7 @@ Inspirator2000
    cd Inspirator2000
    ```
 
-2. Create a virtual environment (using conda -> install beforhand):
+2. Create a virtual environment using conda:
    ```
    conda create -n insta
    ```
