@@ -11,6 +11,7 @@ class UserInterface:
         self.folder = folder
         self.root = tk.Tk()
         self.root.title("Instagram Post Viewer")
+        self.root.geometry("800x640+50+50")  # Set initial window size and position
         
         # Create a canvas to display images
         self.canvas = tk.Canvas(self.root, width=800, height=600, bg="white")
