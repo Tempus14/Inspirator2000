@@ -1,6 +1,7 @@
 # Inspirator2000
 
 This project is a simple application that randomly selects saved Instagram posts and displays the corresponding images. Images have to be categorised beforehand by rating.
+For downloading Instagram posts see: https://github.com/instaloader/instaloader
 
 ## Project Structure
 
