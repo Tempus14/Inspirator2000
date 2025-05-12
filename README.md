@@ -1,22 +1,22 @@
-# Instagram Post Viewer
+# Inspirator2000
 
-This project is a simple application that randomly selects Instagram posts and displays the corresponding images. The user interface allows for displaying up to three posts at once.
+This project is a simple application that randomly selects saved Instagram posts and displays the corresponding images. Images have to be categorised beforehand by rating.
 
 ## Project Structure
 
 ```
-instagram-post-viewer
+Inspirator2000
 ├── src
 │   ├── main.py               # Entry point of the application
 │   ├── instagram
-│   │   ├── api.py           # Functions to interact with the Instagram API
-│   │   ├── post_selector.py  # Class to select random posts
+│   │   ├── post_selector.py  # Class to select random posts from the folder
 │   │   └── __init__.py      # Marks the instagram directory as a package
 │   ├── ui
 │   │   ├── interface.py      # Class for rendering the user interface
 │   │   └── __init__.py      # Marks the ui directory as a package
 │   └── utils
 │       ├── helpers.py        # Utility functions for the application
+│       ├── xmp_utils.py        # Utility functions for the metadata
 │       └── __init__.py      # Marks the utils directory as a package
 ├── requirements.txt          # Lists project dependencies
 ├── .env                      # Environment variables
@@ -28,7 +28,7 @@ instagram-post-viewer
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd instagram-post-viewer
+   cd Inspirator2000
    ```
 
 2. Create a virtual environment:
